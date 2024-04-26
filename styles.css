@@ -1,0 +1,58 @@
+/* Styles for tabs */
+.tabs {
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.tab:hover {
+    background-color: #ddd;
+}
+
+/* Styles for product cards */
+.product {
+    display: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product .badge {
+    background-color: #f44336;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.product .vendor {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.product .price {
+    font-weight: bold;
+}
+
+.product .compare-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 5px;
+}
+
+.product .discount {
+    color: green;
+}
